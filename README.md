@@ -11,7 +11,7 @@ This project is an AI-powered Question Answering system built entirely on Swiggy
 
 ## 2. Source Document
 * **Document**: Swiggy Annual Report FY2024
-* **Source Link**: [https://investors.swiggy.com/annual-reports](https://investors.swiggy.com/annual-reports)
+* **Source Link**: https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Annual-Report-FY-2023-24.pdfA
 * **Format**: PDF
 * *Note: The PDF is not included in this repository due to file size constraints and must be downloaded manually.*
 
@@ -168,6 +168,11 @@ swiggy-rag/
 * **Multi-Part Complexity**: Extremely complex, multi-part questions that require synthesizing data from dozens of disconnected pages may only receive partial answers since only the top 5 chunks are retrieved.
 * **API Limits**: The free tier of the Groq API has strict rate limits (Tokens per Minute / Requests per Minute) which may occasionally throw a `429 RESOURCE_EXHAUSTED` error if queried too rapidly.
 
-## 11. License
+## 11. Screenshots
+<img width="1665" height="539" alt="Screenshot 2026-02-28 234341" src="https://github.com/user-attachments/assets/e380d711-f435-4328-a752-c72da44a0b9a" />
+<img width="912" height="480" alt="Screenshot 2026-02-28 234402" src="https://github.com/user-attachments/assets/d747ff74-8fed-4e11-9f54-cf9c3b42c01c" />
+<img width="596" height="862" alt="Screenshot 2026-02-28 234435" src="https://github.com/user-attachments/assets/12444c6c-98f7-4878-9519-55466c7f91ff" />
+
+## 12. License
 
 This project is licensed under the MIT License.
